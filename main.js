@@ -10,7 +10,7 @@ getSel('.block').onmouseover = function() {
 
 getSel('.block').onmousedown = function() {
     this.style.backgroundColor = 'black';
-    this.innetText = 'А я тобі не скажу!';
+    this.innerText = 'А я тобі не скажу!';
     this.style.borderColor = 'yellow'
     this.style.color = 'white';
 }
@@ -19,6 +19,7 @@ getSel('.block').onmouseup = function() {
     this.style.backgroundColor = 'yellow';
     this.innerText = 'Хочеш знати який?';
     this.style.borderColor = 'black';
+    this.style.color = 'black'
 
 }
 
@@ -26,5 +27,5 @@ getSel('.block').onmouseout = function() {
     this.style.backgroundColor = '';
     this.style.borderColor = '';
     this.style.color = 'black';
-    this.style.fontSize = '30px';
+    this.innerText = 'У мене є секрет'
 }
